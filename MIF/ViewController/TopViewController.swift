@@ -1,20 +1,31 @@
 import UIKit
-import Firebase
 
 final class TopViewController: UIViewController {
 
-    var ref: FIRDatabaseReference!
+    @IBOutlet var buttons: [UIButton]!
+    
+    let vcs = [MapViewController(), GuideViewController(), StampRallyViewController(), VoteViewController(), CashierViewController(), IntroduceViewController()]
     
     override func viewDidLoad() {
-        ref = FIRDatabase.database().reference()
-        let S2Vote = ref.child("S2-vote")
-        let aVote = S2Vote.child("a")
-        S2Vote.observe(.value, with: { snapshot in
-            print(snapshot.value as! [String : Int])
-        })
+        setupView()
     }
 }
 
-fileprivate extension TopViewController {
+private extension TopViewController {
     
+    func setupView() {
+        setupButtons()
+    }
+    
+    func setupButtons() {
+        buttons.forEach {
+            $0.addTarget(self, action: #selector(didtapButton(_:)), for: .touchUpInside)
+        }
+    }
+    
+    @objc func didtapButton(_ sender: UIButton) {
+        let vc = vcs[sender.tag]
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
+
