@@ -1,9 +1,11 @@
 import UIKit
 
 class VoteViewController: UIViewController {
-
+    
+    
+    
     override func viewDidLoad() {
-      
+        
     }
 }
 
