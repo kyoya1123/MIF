@@ -13,18 +13,21 @@
 		9C2E4739214F41EA000FE32E /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2E4737214F41EA000FE32E /* TopViewController.swift */; };
 		9C2E473A214F41EA000FE32E /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C2E4738214F41EA000FE32E /* TopViewController.xib */; };
 		9C2E473F214F44DF000FE32E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C2E473E214F44DF000FE32E /* GoogleService-Info.plist */; };
-		9CAE5176215A636000691243 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE5174215A636000691243 /* MapViewController.swift */; };
-		9CAE5177215A636000691243 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE5175215A636000691243 /* MapViewController.xib */; };
-		9CAE517A215A63AF00691243 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE5178215A63AF00691243 /* GuideViewController.swift */; };
-		9CAE517B215A63AF00691243 /* GuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE5179215A63AF00691243 /* GuideViewController.xib */; };
+		9C5251AE2175EC430016D997 /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5251AC2175EC430016D997 /* TimeTableViewController.swift */; };
+		9C5251AF2175EC430016D997 /* TimeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5251AD2175EC430016D997 /* TimeTableViewController.xib */; };
+		9C5251B2217729DA0016D997 /* SelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5251B0217729DA0016D997 /* SelectionTableViewCell.swift */; };
+		9C5251B3217729DA0016D997 /* SelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5251B1217729DA0016D997 /* SelectionTableViewCell.xib */; };
+		9C926220217CB0020032143B /* NotificationSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92621E217CB0020032143B /* NotificationSettingViewController.swift */; };
+		9C926221217CB0020032143B /* NotificationSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C92621F217CB0020032143B /* NotificationSettingViewController.xib */; };
+		9C926224217CB1D20032143B /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C926222217CB1D20032143B /* NotificationTableViewCell.swift */; };
+		9C926225217CB1D20032143B /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C926223217CB1D20032143B /* NotificationTableViewCell.xib */; };
+		9CAE5176215A636000691243 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE5174215A636000691243 /* BaseViewController.swift */; };
 		9CAE517E215A63D500691243 /* StampRallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE517C215A63D500691243 /* StampRallyViewController.swift */; };
 		9CAE517F215A63D500691243 /* StampRallyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE517D215A63D500691243 /* StampRallyViewController.xib */; };
 		9CAE5182215A642100691243 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE5180215A642100691243 /* VoteViewController.swift */; };
 		9CAE5183215A642100691243 /* VoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE5181215A642100691243 /* VoteViewController.xib */; };
-		9CAE5186215A644600691243 /* CashierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE5184215A644600691243 /* CashierViewController.swift */; };
-		9CAE5187215A644600691243 /* CashierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE5185215A644600691243 /* CashierViewController.xib */; };
-		9CAE518A215A646A00691243 /* IntroduceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE5188215A646A00691243 /* IntroduceViewController.swift */; };
-		9CAE518B215A646A00691243 /* IntroduceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE5189215A646A00691243 /* IntroduceViewController.xib */; };
+		9CB73980217B118800B1AC8E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7397F217B118800B1AC8E /* PageViewController.swift */; };
+		9CB73984217B4FA600B1AC8E /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB73983217B4FA600B1AC8E /* Map.storyboard */; };
 		DC93072C72F578021933E771 /* Pods_MIF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F547EC272F7248196BD7BED /* Pods_MIF.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,18 +42,21 @@
 		9C2E4737214F41EA000FE32E /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		9C2E4738214F41EA000FE32E /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
 		9C2E473E214F44DF000FE32E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9CAE5174215A636000691243 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		9CAE5175215A636000691243 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
-		9CAE5178215A63AF00691243 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
-		9CAE5179215A63AF00691243 /* GuideViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuideViewController.xib; sourceTree = "<group>"; };
+		9C5251AC2175EC430016D997 /* TimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
+		9C5251AD2175EC430016D997 /* TimeTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeTableViewController.xib; sourceTree = "<group>"; };
+		9C5251B0217729DA0016D997 /* SelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewCell.swift; sourceTree = "<group>"; };
+		9C5251B1217729DA0016D997 /* SelectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectionTableViewCell.xib; sourceTree = "<group>"; };
+		9C92621E217CB0020032143B /* NotificationSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingViewController.swift; sourceTree = "<group>"; };
+		9C92621F217CB0020032143B /* NotificationSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationSettingViewController.xib; sourceTree = "<group>"; };
+		9C926222217CB1D20032143B /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		9C926223217CB1D20032143B /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		9CAE5174215A636000691243 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9CAE517C215A63D500691243 /* StampRallyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampRallyViewController.swift; sourceTree = "<group>"; };
 		9CAE517D215A63D500691243 /* StampRallyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StampRallyViewController.xib; sourceTree = "<group>"; };
 		9CAE5180215A642100691243 /* VoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
 		9CAE5181215A642100691243 /* VoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoteViewController.xib; sourceTree = "<group>"; };
-		9CAE5184215A644600691243 /* CashierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierViewController.swift; sourceTree = "<group>"; };
-		9CAE5185215A644600691243 /* CashierViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CashierViewController.xib; sourceTree = "<group>"; };
-		9CAE5188215A646A00691243 /* IntroduceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceViewController.swift; sourceTree = "<group>"; };
-		9CAE5189215A646A00691243 /* IntroduceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroduceViewController.xib; sourceTree = "<group>"; };
+		9CB7397F217B118800B1AC8E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		9CB73983217B4FA600B1AC8E /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		AB3C187D3583C2D1C03C3260 /* Pods-MIF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIF.release.xcconfig"; path = "Pods/Target Support Files/Pods-MIF/Pods-MIF.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,18 +133,21 @@
 				9C2E4723214F4148000FE32E /* AppDelegate.swift */,
 				9C2E4737214F41EA000FE32E /* TopViewController.swift */,
 				9C2E4738214F41EA000FE32E /* TopViewController.xib */,
-				9CAE5174215A636000691243 /* MapViewController.swift */,
-				9CAE5175215A636000691243 /* MapViewController.xib */,
-				9CAE5178215A63AF00691243 /* GuideViewController.swift */,
-				9CAE5179215A63AF00691243 /* GuideViewController.xib */,
+				9CAE5174215A636000691243 /* BaseViewController.swift */,
+				9CB7397F217B118800B1AC8E /* PageViewController.swift */,
+				9CB73983217B4FA600B1AC8E /* Map.storyboard */,
+				9C5251AC2175EC430016D997 /* TimeTableViewController.swift */,
+				9C5251AD2175EC430016D997 /* TimeTableViewController.xib */,
 				9CAE517C215A63D500691243 /* StampRallyViewController.swift */,
 				9CAE517D215A63D500691243 /* StampRallyViewController.xib */,
 				9CAE5180215A642100691243 /* VoteViewController.swift */,
 				9CAE5181215A642100691243 /* VoteViewController.xib */,
-				9CAE5184215A644600691243 /* CashierViewController.swift */,
-				9CAE5185215A644600691243 /* CashierViewController.xib */,
-				9CAE5188215A646A00691243 /* IntroduceViewController.swift */,
-				9CAE5189215A646A00691243 /* IntroduceViewController.xib */,
+				9C5251B0217729DA0016D997 /* SelectionTableViewCell.swift */,
+				9C5251B1217729DA0016D997 /* SelectionTableViewCell.xib */,
+				9C92621E217CB0020032143B /* NotificationSettingViewController.swift */,
+				9C92621F217CB0020032143B /* NotificationSettingViewController.xib */,
+				9C926222217CB1D20032143B /* NotificationTableViewCell.swift */,
+				9C926223217CB1D20032143B /* NotificationTableViewCell.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -212,14 +221,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C2E472E214F414D000FE32E /* LaunchScreen.storyboard in Resources */,
-				9CAE517B215A63AF00691243 /* GuideViewController.xib in Resources */,
 				9C2E473F214F44DF000FE32E /* GoogleService-Info.plist in Resources */,
-				9CAE5187215A644600691243 /* CashierViewController.xib in Resources */,
 				9C2E472B214F414D000FE32E /* Assets.xcassets in Resources */,
+				9C926225217CB1D20032143B /* NotificationTableViewCell.xib in Resources */,
 				9CAE5183215A642100691243 /* VoteViewController.xib in Resources */,
 				9CAE517F215A63D500691243 /* StampRallyViewController.xib in Resources */,
-				9CAE5177215A636000691243 /* MapViewController.xib in Resources */,
-				9CAE518B215A646A00691243 /* IntroduceViewController.xib in Resources */,
+				9C5251B3217729DA0016D997 /* SelectionTableViewCell.xib in Resources */,
+				9C5251AF2175EC430016D997 /* TimeTableViewController.xib in Resources */,
+				9CB73984217B4FA600B1AC8E /* Map.storyboard in Resources */,
+				9C926221217CB0020032143B /* NotificationSettingViewController.xib in Resources */,
 				9C2E473A214F41EA000FE32E /* TopViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,10 +244,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MIF/Pods-MIF-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,14 +282,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C926220217CB0020032143B /* NotificationSettingViewController.swift in Sources */,
 				9CAE5182215A642100691243 /* VoteViewController.swift in Sources */,
+				9CB73980217B118800B1AC8E /* PageViewController.swift in Sources */,
 				9C2E4739214F41EA000FE32E /* TopViewController.swift in Sources */,
-				9CAE517A215A63AF00691243 /* GuideViewController.swift in Sources */,
-				9CAE5176215A636000691243 /* MapViewController.swift in Sources */,
-				9CAE518A215A646A00691243 /* IntroduceViewController.swift in Sources */,
+				9CAE5176215A636000691243 /* BaseViewController.swift in Sources */,
 				9CAE517E215A63D500691243 /* StampRallyViewController.swift in Sources */,
+				9C926224217CB1D20032143B /* NotificationTableViewCell.swift in Sources */,
+				9C5251B2217729DA0016D997 /* SelectionTableViewCell.swift in Sources */,
+				9C5251AE2175EC430016D997 /* TimeTableViewController.swift in Sources */,
 				9C2E4724214F4148000FE32E /* AppDelegate.swift in Sources */,
-				9CAE5186215A644600691243 /* CashierViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -401,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -419,7 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3X7LEN654Y;
 				INFOPLIST_FILE = MIF/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,7 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3X7LEN654Y;
 				INFOPLIST_FILE = MIF/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
